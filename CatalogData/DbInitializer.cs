@@ -11,7 +11,7 @@ namespace CatalogData
     {
         public static void Initialize(CatalogContext context)
         {
-            context.Database.EnsureDeleted();
+            //context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
             if (!context.Categories.Any())
